@@ -1,13 +1,13 @@
 {
     "name": "Alicia Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/bcdd47f08b0389f7b0fed.jpg",
+    "logo": "https://telegra.ph/file/bcdd47f08b0389f7b0fed.png",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Yukki",
-    "YukkiMusicBot",
+    "Alicia",
+    "AliciaMusicBot",
     "telegram-bot",
     "pyrogram"
     ],
@@ -65,7 +65,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Pranav-Saraswat/Testing-Alpha",
+        "value": "https://github.com/Noobxcoders/Alicia",
         "required": true
       },
       "UPSTREAM_BRANCH": {
