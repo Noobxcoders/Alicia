@@ -1,17 +1,7 @@
-#
-# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import random
 
-from YukkiMusic import userbot
-from YukkiMusic.core.mongo import mongodb
+from AliciaMusic import userbot
+from AliciaMusic.core.mongo import mongodb
 
 db = mongodb.assistants
 
@@ -32,7 +22,7 @@ async def get_client(assistant: int):
 
 
 async def set_assistant(chat_id):
-    from YukkiMusic.core.userbot import assistants
+    from AliciaMusic.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -46,7 +36,7 @@ async def set_assistant(chat_id):
 
 
 async def get_assistant(chat_id: int) -> str:
-    from YukkiMusic.core.userbot import assistants
+    from AliciaMusic.core.userbot import assistants
 
     if assistant := assistantdict.get(chat_id):
         userbot = (
@@ -69,7 +59,7 @@ async def get_assistant(chat_id: int) -> str:
 
 
 async def set_calls_assistant(chat_id):
-    from YukkiMusic.core.userbot import assistants
+    from AliciaMusic.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -82,7 +72,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> int:
-    from YukkiMusic.core.userbot import assistants
+    from AliciaMusic.core.userbot import assistants
 
     if assistant := assistantdict.get(chat_id):
         assis = (
