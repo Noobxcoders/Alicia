@@ -1,16 +1,6 @@
-#
-# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 from config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
-from YukkiMusic import app
-from YukkiMusic.utils.database import is_on_off
+from AliciaMusic import app
+from AliciaMusic.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
