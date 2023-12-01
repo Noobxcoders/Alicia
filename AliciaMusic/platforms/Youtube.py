@@ -1,13 +1,3 @@
-#
-# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import asyncio
 import os
 import re
@@ -19,8 +9,8 @@ from yt_dlp import YoutubeDL
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from YukkiMusic.utils.database import is_on_off
-from YukkiMusic.utils.formatters import time_to_seconds
+from AliciaMusic.utils.database import is_on_off
+from AliciaMusic.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
