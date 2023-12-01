@@ -1,13 +1,3 @@
-#
-# Copyright (C) 2021-present by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import sys
 
 from pyrogram import Client
@@ -19,11 +9,11 @@ import config
 from ..logging import LOGGER
 
 
-class YukkiBot(Client):
+class AliciaBot(Client):
     def __init__(self):
         LOGGER(__name__).info("Starting Bot")
         super().__init__(
-            "YukkiMusicBot",
+            "AliciaMusicBot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
