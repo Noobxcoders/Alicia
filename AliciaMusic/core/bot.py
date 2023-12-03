@@ -9,7 +9,7 @@ import config
 from ..logging import LOGGER
 
 
-class Aliciabot(Client):
+class AliciaMusicbot(Client):
     def __init__(self):
         LOGGER(__name__).info("Starting Bot")
         super().__init__(
