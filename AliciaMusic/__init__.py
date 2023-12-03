@@ -22,7 +22,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = YukkiBot()
+app = AliciaBot()
 
 # Assistant Client
 userbot = Userbot()
