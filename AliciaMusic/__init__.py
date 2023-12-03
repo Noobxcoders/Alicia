@@ -3,6 +3,7 @@ from AliciaMusic.core.dir import dirr
 from AliciaMusic.core.git import git
 from AliciaMusic.core.userbot import Userbot
 from AliciaMusic.misc import dbb, heroku, sudo
+from aiohttp import ClientSession
 
 from .logging import LOGGER
 
