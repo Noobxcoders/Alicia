@@ -8,7 +8,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from AliciaMusic import LOGGER, app, userbot
-from AliciaMusic.core.call import Yukki
+from AliciaMusic.core.call import Alicia 
 from AliciaMusic.plugins import ALL_MODULES
 from AliciaMusic.utils.database import get_banned_users, get_gbanned
 
