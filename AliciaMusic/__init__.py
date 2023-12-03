@@ -10,6 +10,7 @@ dirr()
 #git()
 dbb()
 heroku()
+sudo()
 
 app = Alicia()
 userbot = Userbot()
@@ -24,3 +25,5 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
+
+aiohttpsession = ClientSession()
