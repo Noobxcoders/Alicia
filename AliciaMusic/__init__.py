@@ -1,4 +1,4 @@
-from AliciaMusic.core.bot import AliciaBot
+from AliciaMusic.core.bot import AliciaMusicBot
 from AliciaMusic.core.dir import dirr
 from AliciaMusic.core.git import git
 from AliciaMusic.core.userbot import Userbot
@@ -22,7 +22,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = AliciaBot()
+app = AliciaMusicBot()
 
 # Assistant Client
 userbot = Userbot()
