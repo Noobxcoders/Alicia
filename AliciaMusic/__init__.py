@@ -12,7 +12,6 @@ dbb()
 heroku()
 
 app = Alicia()
-api = SafoneAPI()
 userbot = Userbot()
 
 
